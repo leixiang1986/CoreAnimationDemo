@@ -38,7 +38,7 @@
 
 - (NSArray *)dataSource {
     if (!_dataSource) {
-        _dataSource = @[@"拆分图片--contentsRect",@"layer代理--CALayerDelegate",@"图形变换",@"实体对象",@"专用图层"];
+        _dataSource = @[@"拆分图片--contentsRect",@"layer代理--CALayerDelegate",@"图形变换",@"实体对象",@"专用图层",@"隐式动画",@"显式动画",@"CAmediaTiming",@"缓冲CAMediaTimingFunction"];
     }
 
     return _dataSource;
@@ -77,8 +77,20 @@
     else if (indexPath.row == 3) {
         [self.navigationController performSegueWithIdentifier:@"showSolid" sender:nil];
     }
-    else {
+    else if (indexPath.row == 4){
         [self performSegueWithIdentifier:@"showDedicatedLayer" sender:nil];
+    }
+    else if (indexPath.row == 5) {
+        [self performSegueWithIdentifier:@"showImplicitAnimation" sender:nil];
+    }
+    else if (indexPath.row == 6) {
+        [self performSegueWithIdentifier:@"showExplicitAnimation" sender:nil];
+    }
+    else if (indexPath.row == 7) {
+        [self.navigationController performSegueWithIdentifier:@"showCAMediaTiming" sender:nil];
+    }
+    else if (indexPath.row == 8) {
+        [self.navigationController performSegueWithIdentifier:@"showTimingFunction" sender:nil];
     }
 }
 

@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="fQp-9W-VbD">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--UIView的动画缓冲-->
+        <scene sceneID="P1R-LP-OeG">
+            <objects>
+                <viewController title="UIView的动画缓冲" id="TgS-0M-fX7" customClass="TimingFunctionOfUIViewVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IZp-0X-M1z"/>
+                        <viewControllerLayoutGuide type="bottom" id="dNU-QR-Rya"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="F6M-7g-zn4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="n5D-MJ-lYa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1623" y="104"/>
+        </scene>
+        <!--CALayer的动画缓冲-->
+        <scene sceneID="xUN-LE-kLs">
+            <objects>
+                <viewController title="CALayer的动画缓冲" id="d52-kS-m4k" customClass="TimingFunctionOfCALayer" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="NIC-Oa-93B"/>
+                        <viewControllerLayoutGuide type="bottom" id="jcu-Vj-zYJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="ebb-aW-6Bd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Zo4-GZ-P56">
+                                <rect key="frame" x="0.0" y="64" width="187.5" height="30"/>
+                                <state key="normal" title="CABasicAnimation实现"/>
+                                <connections>
+                                    <action selector="selected:" destination="d52-kS-m4k" eventType="touchUpInside" id="ar1-CN-7uf"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="K1A-SB-YPt">
+                                <rect key="frame" x="0.0" y="646" width="375" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yTV-Yh-lRQ">
+                                <rect key="frame" x="188" y="64" width="187" height="30"/>
+                                <state key="normal" title="CATransaction隐式动画"/>
+                                <connections>
+                                    <action selector="selected:" destination="d52-kS-m4k" eventType="touchUpInside" id="3Sf-cs-ktP"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="Zo4-GZ-P56" firstAttribute="leading" secondItem="ebb-aW-6Bd" secondAttribute="leading" id="7LL-6O-78k"/>
+                            <constraint firstAttribute="trailing" secondItem="yTV-Yh-lRQ" secondAttribute="trailing" id="7eg-aE-djF"/>
+                            <constraint firstItem="Zo4-GZ-P56" firstAttribute="top" secondItem="NIC-Oa-93B" secondAttribute="bottom" id="If4-kv-dmr"/>
+                            <constraint firstAttribute="trailing" secondItem="K1A-SB-YPt" secondAttribute="trailing" id="IfK-Vz-IV9"/>
+                            <constraint firstItem="jcu-Vj-zYJ" firstAttribute="top" secondItem="K1A-SB-YPt" secondAttribute="bottom" id="MaO-ai-PzA"/>
+                            <constraint firstItem="yTV-Yh-lRQ" firstAttribute="leading" secondItem="Zo4-GZ-P56" secondAttribute="trailing" id="VQv-4x-pvV"/>
+                            <constraint firstItem="Zo4-GZ-P56" firstAttribute="trailing" secondItem="ebb-aW-6Bd" secondAttribute="trailing" multiplier="0.5" id="lZn-tp-Z61"/>
+                            <constraint firstItem="yTV-Yh-lRQ" firstAttribute="top" secondItem="NIC-Oa-93B" secondAttribute="bottom" id="pwg-6M-twq"/>
+                            <constraint firstItem="K1A-SB-YPt" firstAttribute="leading" secondItem="ebb-aW-6Bd" secondAttribute="leading" id="vWY-By-j9x"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="chooseBtn" destination="Zo4-GZ-P56" id="PB4-of-8FA"/>
+                        <outlet property="statusLabel" destination="K1A-SB-YPt" id="teJ-o1-YgO"/>
+                        <outlet property="transactionSelectBtn" destination="yTV-Yh-lRQ" id="hpD-Hc-4Jh"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="MfH-JO-vyE" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-2276" y="106.59670164917542"/>
+        </scene>
+        <!--关键帧的动画缓冲-->
+        <scene sceneID="lJc-fX-2ce">
+            <objects>
+                <viewController title="关键帧的动画缓冲" id="SzU-5E-7Uy" customClass="TimingFunctionOfKeyframeVC" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="eNP-4R-VLx"/>
+                        <viewControllerLayoutGuide type="bottom" id="IMm-Yf-9BR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="4rq-gT-cJg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2cM-JD-REI">
+                                <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="IMm-Yf-9BR" firstAttribute="top" secondItem="2cM-JD-REI" secondAttribute="bottom" id="PH8-Kk-fBh"/>
+                            <constraint firstAttribute="trailing" secondItem="2cM-JD-REI" secondAttribute="trailing" id="cxb-P4-33r"/>
+                            <constraint firstItem="2cM-JD-REI" firstAttribute="top" secondItem="eNP-4R-VLx" secondAttribute="bottom" id="iSp-AF-O5V"/>
+                            <constraint firstItem="2cM-JD-REI" firstAttribute="leading" secondItem="4rq-gT-cJg" secondAttribute="leading" id="k2q-ni-Z8j"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="layerView" destination="2cM-JD-REI" id="qF6-2U-Hgs"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qkB-PR-s2W" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-887" y="102"/>
+        </scene>
+        <!--CAMediaTimingFunction-->
+        <scene sceneID="WrX-Zy-cBG">
+            <objects>
+                <tableViewController title="CAMediaTimingFunction" id="fQp-9W-VbD" customClass="CATimingFunctionVC" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="vmF-cC-hAW">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <sections>
+                            <tableViewSection headerTitle="动画速度" id="f5R-6I-nix">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="n5G-yP-nBe" style="IBUITableViewCellStyleDefault" id="oxY-Mx-6uy">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="oxY-Mx-6uy" id="FbI-a7-grQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CALayer的动画缓冲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="n5G-yP-nBe">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="d52-kS-m4k" kind="show" id="9Ul-NB-2EL"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="OVb-9C-AFk" style="IBUITableViewCellStyleDefault" id="aFw-Fo-LOP">
+                                        <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="aFw-Fo-LOP" id="Hln-zR-lbT">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="UIView的动画缓冲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="OVb-9C-AFk">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="TgS-0M-fX7" kind="show" id="rT6-aY-5ba"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="G9D-WD-67g" style="IBUITableViewCellStyleDefault" id="8Tb-wd-FuS">
+                                        <rect key="frame" x="0.0" y="116" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="8Tb-wd-FuS" id="DtI-Wj-Jb5">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="CAKeyFrameAnimation关键帧动画的缓冲" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="G9D-WD-67g">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <connections>
+                                            <segue destination="SzU-5E-7Uy" kind="show" id="HdQ-cl-GfQ"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                            <tableViewSection headerTitle="Section-2" id="FsQ-sg-cXu">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="1Kv-tG-CF8" style="IBUITableViewCellStyleDefault" id="vYp-pa-Rom">
+                                        <rect key="frame" x="0.0" y="188" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="vYp-pa-Rom" id="7Qs-r7-TzQ">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="1Kv-tG-CF8">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="0nz-Ux-cRM" style="IBUITableViewCellStyleDefault" id="VeU-pF-CAP">
+                                        <rect key="frame" x="0.0" y="232" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VeU-pF-CAP" id="HoX-N8-zbz">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="0nz-Ux-cRM">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" textLabel="8jD-th-rWM" style="IBUITableViewCellStyleDefault" id="VVB-I0-Jda">
+                                        <rect key="frame" x="0.0" y="276" width="375" height="44"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="VVB-I0-Jda" id="cYO-Zr-yzE">
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" text="Title" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="8jD-th-rWM">
+                                                    <rect key="frame" x="15" y="0.0" width="345" height="43"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="0.0"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="fQp-9W-VbD" id="xCo-qB-aJs"/>
+                            <outlet property="delegate" destination="fQp-9W-VbD" id="bx7-lh-xsb"/>
+                        </connections>
+                    </tableView>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZHk-6u-VaH" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-833" y="777"/>
+        </scene>
+    </scenes>
+</document>

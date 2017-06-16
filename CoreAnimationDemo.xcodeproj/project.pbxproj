@@ -68,6 +68,30 @@
 		D30B96E81EE7E4CC009876FA /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96E71EE7E4CC009876FA /* ReflectionView.m */; };
 		D30B96EB1EE80A25009876FA /* AVPlayerLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D30B96EA1EE80A25009876FA /* AVPlayerLayerVC.m */; };
 		D30B96ED1EE80B02009876FA /* out.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = D30B96EC1EE80B02009876FA /* out.mp4 */; };
+		D3197A731EEE61AE0088C661 /* ImplicitAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A721EEE61AE0088C661 /* ImplicitAnimationVC.m */; };
+		D3197A761EEE72730088C661 /* LayerActionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A751EEE72730088C661 /* LayerActionVC.m */; };
+		D3197A791EEE8B010088C661 /* PresentationLayerVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A781EEE8B010088C661 /* PresentationLayerVC.m */; };
+		D3197A7D1EEE93720088C661 /* ExplicitAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A7C1EEE93720088C661 /* ExplicitAnimationVC.m */; };
+		D3197A801EEF744C0088C661 /* PropertyAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A7F1EEF744C0088C661 /* PropertyAnimationVC.m */; };
+		D3197A831EEFBAA60088C661 /* KeyFrameAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A821EEFBAA60088C661 /* KeyFrameAnimationVC.m */; };
+		D3197A861EEFBBCB0088C661 /* ExplicitAnimation.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3197A841EEFBBCB0088C661 /* ExplicitAnimation.storyboard */; };
+		D3197A881EEFBD170088C661 /* toTop.png in Resources */ = {isa = PBXBuildFile; fileRef = D3197A871EEFBD170088C661 /* toTop.png */; };
+		D3197A8B1EEFCDA40088C661 /* GroupAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A8A1EEFCDA40088C661 /* GroupAnimationVC.m */; };
+		D3197A8E1EEFD2880088C661 /* TransitionAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A8D1EEFD2880088C661 /* TransitionAnimationVC.m */; };
+		D3197A911EEFF91D0088C661 /* CancelAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A901EEFF91D0088C661 /* CancelAnimationVC.m */; };
+		D3197A951EF103510088C661 /* AutoreversesVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A941EF103510088C661 /* AutoreversesVC.m */; };
+		D3197A981EF1044A0088C661 /* CAMediaTimingVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A971EF1044A0088C661 /* CAMediaTimingVC.m */; };
+		D3197A9B1EF118E40088C661 /* CAMediaTiming.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3197A991EF118E40088C661 /* CAMediaTiming.storyboard */; };
+		D3197A9E1EF126950088C661 /* RelativeTimeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197A9D1EF126950088C661 /* RelativeTimeVC.m */; };
+		D3197AA11EF12BBA0088C661 /* CustomAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AA01EF12BBA0088C661 /* CustomAnimationVC.m */; };
+		D3197AA41EF12D280088C661 /* TransitionAnimationOfUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AA31EF12D280088C661 /* TransitionAnimationOfUIViewVC.m */; };
+		D3197AA71EF147E80088C661 /* ManualAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AA61EF147E80088C661 /* ManualAnimationVC.m */; };
+		D3197AAA1EF220CC0088C661 /* ManualAnimationOfMoveVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AA91EF220CC0088C661 /* ManualAnimationOfMoveVC.m */; };
+		D3197AE11EF287480088C661 /* CATimingFunctionVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AE01EF287480088C661 /* CATimingFunctionVC.m */; };
+		D3197AE41EF288A60088C661 /* TimingFunction.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3197AE21EF288A60088C661 /* TimingFunction.storyboard */; };
+		D3197AE71EF28A610088C661 /* TimingFunctionOfCALayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AE61EF28A610088C661 /* TimingFunctionOfCALayer.m */; };
+		D3197AEA1EF28A7F0088C661 /* TimingFunctionOfUIViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AE91EF28A7F0088C661 /* TimingFunctionOfUIViewVC.m */; };
+		D3197AED1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = D3197AEC1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.m */; };
 		D326C6921EE52B3200E5D4A6 /* TransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D326C6911EE52B3200E5D4A6 /* TransformViewController.m */; };
 		D3553CD31EE102B8003AD62C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3553CD21EE102B8003AD62C /* main.m */; };
 		D3553CD61EE102B8003AD62C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3553CD51EE102B8003AD62C /* AppDelegate.m */; };
@@ -156,6 +180,50 @@
 		D30B96E91EE80A25009876FA /* AVPlayerLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVPlayerLayerVC.h; sourceTree = "<group>"; };
 		D30B96EA1EE80A25009876FA /* AVPlayerLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVPlayerLayerVC.m; sourceTree = "<group>"; };
 		D30B96EC1EE80B02009876FA /* out.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = out.mp4; sourceTree = "<group>"; };
+		D3197A711EEE61AE0088C661 /* ImplicitAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationVC.h; sourceTree = "<group>"; };
+		D3197A721EEE61AE0088C661 /* ImplicitAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationVC.m; sourceTree = "<group>"; };
+		D3197A741EEE72730088C661 /* LayerActionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerActionVC.h; sourceTree = "<group>"; };
+		D3197A751EEE72730088C661 /* LayerActionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerActionVC.m; sourceTree = "<group>"; };
+		D3197A771EEE8B010088C661 /* PresentationLayerVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentationLayerVC.h; sourceTree = "<group>"; };
+		D3197A781EEE8B010088C661 /* PresentationLayerVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentationLayerVC.m; sourceTree = "<group>"; };
+		D3197A7B1EEE93720088C661 /* ExplicitAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationVC.h; sourceTree = "<group>"; };
+		D3197A7C1EEE93720088C661 /* ExplicitAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationVC.m; sourceTree = "<group>"; };
+		D3197A7E1EEF744C0088C661 /* PropertyAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PropertyAnimationVC.h; sourceTree = "<group>"; };
+		D3197A7F1EEF744C0088C661 /* PropertyAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PropertyAnimationVC.m; sourceTree = "<group>"; };
+		D3197A811EEFBAA60088C661 /* KeyFrameAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KeyFrameAnimationVC.h; sourceTree = "<group>"; };
+		D3197A821EEFBAA60088C661 /* KeyFrameAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KeyFrameAnimationVC.m; sourceTree = "<group>"; };
+		D3197A851EEFBBCB0088C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/ExplicitAnimation.storyboard; sourceTree = "<group>"; };
+		D3197A871EEFBD170088C661 /* toTop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toTop.png; sourceTree = "<group>"; };
+		D3197A891EEFCDA40088C661 /* GroupAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GroupAnimationVC.h; sourceTree = "<group>"; };
+		D3197A8A1EEFCDA40088C661 /* GroupAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GroupAnimationVC.m; sourceTree = "<group>"; };
+		D3197A8C1EEFD2880088C661 /* TransitionAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationVC.h; sourceTree = "<group>"; };
+		D3197A8D1EEFD2880088C661 /* TransitionAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationVC.m; sourceTree = "<group>"; };
+		D3197A8F1EEFF91D0088C661 /* CancelAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CancelAnimationVC.h; sourceTree = "<group>"; };
+		D3197A901EEFF91D0088C661 /* CancelAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CancelAnimationVC.m; sourceTree = "<group>"; };
+		D3197A931EF103510088C661 /* AutoreversesVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AutoreversesVC.h; sourceTree = "<group>"; };
+		D3197A941EF103510088C661 /* AutoreversesVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AutoreversesVC.m; sourceTree = "<group>"; };
+		D3197A961EF1044A0088C661 /* CAMediaTimingVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CAMediaTimingVC.h; sourceTree = "<group>"; };
+		D3197A971EF1044A0088C661 /* CAMediaTimingVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CAMediaTimingVC.m; sourceTree = "<group>"; };
+		D3197A9A1EF118E40088C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/CAMediaTiming.storyboard; sourceTree = "<group>"; };
+		D3197A9C1EF126950088C661 /* RelativeTimeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RelativeTimeVC.h; sourceTree = "<group>"; };
+		D3197A9D1EF126950088C661 /* RelativeTimeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RelativeTimeVC.m; sourceTree = "<group>"; };
+		D3197A9F1EF12BBA0088C661 /* CustomAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationVC.h; sourceTree = "<group>"; };
+		D3197AA01EF12BBA0088C661 /* CustomAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationVC.m; sourceTree = "<group>"; };
+		D3197AA21EF12D280088C661 /* TransitionAnimationOfUIViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransitionAnimationOfUIViewVC.h; sourceTree = "<group>"; };
+		D3197AA31EF12D280088C661 /* TransitionAnimationOfUIViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransitionAnimationOfUIViewVC.m; sourceTree = "<group>"; };
+		D3197AA51EF147E80088C661 /* ManualAnimationVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualAnimationVC.h; sourceTree = "<group>"; };
+		D3197AA61EF147E80088C661 /* ManualAnimationVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualAnimationVC.m; sourceTree = "<group>"; };
+		D3197AA81EF220CC0088C661 /* ManualAnimationOfMoveVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ManualAnimationOfMoveVC.h; sourceTree = "<group>"; };
+		D3197AA91EF220CC0088C661 /* ManualAnimationOfMoveVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ManualAnimationOfMoveVC.m; sourceTree = "<group>"; };
+		D3197ADF1EF287480088C661 /* CATimingFunctionVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CATimingFunctionVC.h; sourceTree = "<group>"; };
+		D3197AE01EF287480088C661 /* CATimingFunctionVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CATimingFunctionVC.m; sourceTree = "<group>"; };
+		D3197AE31EF288A60088C661 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/TimingFunction.storyboard; sourceTree = "<group>"; };
+		D3197AE51EF28A610088C661 /* TimingFunctionOfCALayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingFunctionOfCALayer.h; sourceTree = "<group>"; };
+		D3197AE61EF28A610088C661 /* TimingFunctionOfCALayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingFunctionOfCALayer.m; sourceTree = "<group>"; };
+		D3197AE81EF28A7F0088C661 /* TimingFunctionOfUIViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingFunctionOfUIViewVC.h; sourceTree = "<group>"; };
+		D3197AE91EF28A7F0088C661 /* TimingFunctionOfUIViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingFunctionOfUIViewVC.m; sourceTree = "<group>"; };
+		D3197AEB1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimingFunctionOfKeyframeVC.h; sourceTree = "<group>"; };
+		D3197AEC1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimingFunctionOfKeyframeVC.m; sourceTree = "<group>"; };
 		D326C6901EE52B3200E5D4A6 /* TransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransformViewController.h; sourceTree = "<group>"; };
 		D326C6911EE52B3200E5D4A6 /* TransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransformViewController.m; sourceTree = "<group>"; };
 		D3553CCE1EE102B8003AD62C /* CoreAnimationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CoreAnimationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -269,6 +337,74 @@
 			path = 1242x2208;
 			sourceTree = "<group>";
 		};
+		D3197A701EEE60010088C661 /* 隐式动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D3197A711EEE61AE0088C661 /* ImplicitAnimationVC.h */,
+				D3197A721EEE61AE0088C661 /* ImplicitAnimationVC.m */,
+				D3197A741EEE72730088C661 /* LayerActionVC.h */,
+				D3197A751EEE72730088C661 /* LayerActionVC.m */,
+				D3197A771EEE8B010088C661 /* PresentationLayerVC.h */,
+				D3197A781EEE8B010088C661 /* PresentationLayerVC.m */,
+			);
+			path = "隐式动画";
+			sourceTree = "<group>";
+		};
+		D3197A7A1EEE932E0088C661 /* 显示动画 */ = {
+			isa = PBXGroup;
+			children = (
+				D3197A7B1EEE93720088C661 /* ExplicitAnimationVC.h */,
+				D3197A7C1EEE93720088C661 /* ExplicitAnimationVC.m */,
+				D3197A7E1EEF744C0088C661 /* PropertyAnimationVC.h */,
+				D3197A7F1EEF744C0088C661 /* PropertyAnimationVC.m */,
+				D3197A811EEFBAA60088C661 /* KeyFrameAnimationVC.h */,
+				D3197A821EEFBAA60088C661 /* KeyFrameAnimationVC.m */,
+				D3197A891EEFCDA40088C661 /* GroupAnimationVC.h */,
+				D3197A8A1EEFCDA40088C661 /* GroupAnimationVC.m */,
+				D3197A8C1EEFD2880088C661 /* TransitionAnimationVC.h */,
+				D3197A8D1EEFD2880088C661 /* TransitionAnimationVC.m */,
+				D3197AA21EF12D280088C661 /* TransitionAnimationOfUIViewVC.h */,
+				D3197AA31EF12D280088C661 /* TransitionAnimationOfUIViewVC.m */,
+				D3197A8F1EEFF91D0088C661 /* CancelAnimationVC.h */,
+				D3197A901EEFF91D0088C661 /* CancelAnimationVC.m */,
+				D3197A9F1EF12BBA0088C661 /* CustomAnimationVC.h */,
+				D3197AA01EF12BBA0088C661 /* CustomAnimationVC.m */,
+			);
+			path = "显示动画";
+			sourceTree = "<group>";
+		};
+		D3197A921EF103240088C661 /* CAMediaTiming */ = {
+			isa = PBXGroup;
+			children = (
+				D3197A931EF103510088C661 /* AutoreversesVC.h */,
+				D3197A941EF103510088C661 /* AutoreversesVC.m */,
+				D3197A961EF1044A0088C661 /* CAMediaTimingVC.h */,
+				D3197A971EF1044A0088C661 /* CAMediaTimingVC.m */,
+				D3197A9C1EF126950088C661 /* RelativeTimeVC.h */,
+				D3197A9D1EF126950088C661 /* RelativeTimeVC.m */,
+				D3197AA51EF147E80088C661 /* ManualAnimationVC.h */,
+				D3197AA61EF147E80088C661 /* ManualAnimationVC.m */,
+				D3197AA81EF220CC0088C661 /* ManualAnimationOfMoveVC.h */,
+				D3197AA91EF220CC0088C661 /* ManualAnimationOfMoveVC.m */,
+			);
+			path = CAMediaTiming;
+			sourceTree = "<group>";
+		};
+		D3197ADE1EF285F90088C661 /* 缓冲 */ = {
+			isa = PBXGroup;
+			children = (
+				D3197ADF1EF287480088C661 /* CATimingFunctionVC.h */,
+				D3197AE01EF287480088C661 /* CATimingFunctionVC.m */,
+				D3197AE51EF28A610088C661 /* TimingFunctionOfCALayer.h */,
+				D3197AE61EF28A610088C661 /* TimingFunctionOfCALayer.m */,
+				D3197AE81EF28A7F0088C661 /* TimingFunctionOfUIViewVC.h */,
+				D3197AE91EF28A7F0088C661 /* TimingFunctionOfUIViewVC.m */,
+				D3197AEB1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.h */,
+				D3197AEC1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.m */,
+			);
+			path = "缓冲";
+			sourceTree = "<group>";
+		};
 		D3553CC51EE102B8003AD62C = {
 			isa = PBXGroup;
 			children = (
@@ -288,6 +424,11 @@
 		D3553CD01EE102B8003AD62C /* CoreAnimationDemo */ = {
 			isa = PBXGroup;
 			children = (
+				D3197ADE1EF285F90088C661 /* 缓冲 */,
+				D3197A921EF103240088C661 /* CAMediaTiming */,
+				D3197A871EEFBD170088C661 /* toTop.png */,
+				D3197A7A1EEE932E0088C661 /* 显示动画 */,
+				D3197A701EEE60010088C661 /* 隐式动画 */,
 				D30B96EC1EE80B02009876FA /* out.mp4 */,
 				D30B962E1EE7A04F009876FA /* 1242x2208 */,
 				D30B96291EE79E6D009876FA /* 1242x2208.png */,
@@ -310,6 +451,9 @@
 				D3553CF01EE16766003AD62C /* ReDrawView.h */,
 				D3553CF11EE16766003AD62C /* ReDrawView.m */,
 				D3553CDA1EE102B8003AD62C /* Main.storyboard */,
+				D3197AE21EF288A60088C661 /* TimingFunction.storyboard */,
+				D3197A991EF118E40088C661 /* CAMediaTiming.storyboard */,
+				D3197A841EEFBBCB0088C661 /* ExplicitAnimation.storyboard */,
 				D30B95F01EE68D83009876FA /* Dedicate.storyboard */,
 				D3553CDD1EE102B8003AD62C /* Assets.xcassets */,
 				D3553CDF1EE102B8003AD62C /* LaunchScreen.storyboard */,
@@ -394,6 +538,7 @@
 				D30B96DF1EE7A18F009876FA /* 1242x2208_00_03.png in Resources */,
 				D30B96DC1EE7A18F009876FA /* 1242x2208_00_06.png in Resources */,
 				D30B96BB1EE7A18F009876FA /* 1242x2208_04_03.png in Resources */,
+				D3197A881EEFBD170088C661 /* toTop.png in Resources */,
 				D30B96DE1EE7A18F009876FA /* 1242x2208_00_04.png in Resources */,
 				D30B96C11EE7A18F009876FA /* 1242x2208_03_06.png in Resources */,
 				D30B96B91EE7A18F009876FA /* 1242x2208_04_05.png in Resources */,
@@ -410,10 +555,12 @@
 				D3553CDE1EE102B8003AD62C /* Assets.xcassets in Resources */,
 				D30B96C01EE7A18F009876FA /* 1242x2208_03_07.png in Resources */,
 				D30B96D31EE7A18F009876FA /* 1242x2208_01_06.png in Resources */,
+				D3197A861EEFBBCB0088C661 /* ExplicitAnimation.storyboard in Resources */,
 				D30B96C41EE7A18F009876FA /* 1242x2208_03_03.png in Resources */,
 				D30B96D51EE7A18F009876FA /* 1242x2208_01_04.png in Resources */,
 				D30B96B81EE7A18F009876FA /* 1242x2208_04_06.png in Resources */,
 				D30B96D71EE7A18F009876FA /* 1242x2208_01_02.png in Resources */,
+				D3197AE41EF288A60088C661 /* TimingFunction.storyboard in Resources */,
 				D3553CDC1EE102B8003AD62C /* Main.storyboard in Resources */,
 				D30B96BC1EE7A18F009876FA /* 1242x2208_04_02.png in Resources */,
 				D30B96D21EE7A18F009876FA /* 1242x2208_01_07.png in Resources */,
@@ -426,6 +573,7 @@
 				D30B96C91EE7A18F009876FA /* 1242x2208_02_07.png in Resources */,
 				D30B96D61EE7A18F009876FA /* 1242x2208_01_03.png in Resources */,
 				D30B96CB1EE7A18F009876FA /* 1242x2208_02_05.png in Resources */,
+				D3197A9B1EF118E40088C661 /* CAMediaTiming.storyboard in Resources */,
 				D30B96C21EE7A18F009876FA /* 1242x2208_03_05.png in Resources */,
 				D30B96E21EE7A18F009876FA /* 1242x2208_00_00.png in Resources */,
 				D30B96BF1EE7A18F009876FA /* 1242x2208_03_08.png in Resources */,
@@ -448,24 +596,44 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D3197A981EF1044A0088C661 /* CAMediaTimingVC.m in Sources */,
 				D3553CD91EE102B8003AD62C /* ViewController.m in Sources */,
+				D3197A731EEE61AE0088C661 /* ImplicitAnimationVC.m in Sources */,
+				D3197AAA1EF220CC0088C661 /* ManualAnimationOfMoveVC.m in Sources */,
 				D30B95FB1EE6B2BD009876FA /* ScrollView.m in Sources */,
+				D3197AE11EF287480088C661 /* CATimingFunctionVC.m in Sources */,
 				D30B962D1EE79E89009876FA /* CATileLayerVC.m in Sources */,
+				D3197A761EEE72730088C661 /* LayerActionVC.m in Sources */,
+				D3197AA71EF147E80088C661 /* ManualAnimationVC.m in Sources */,
 				D30B96E81EE7E4CC009876FA /* ReflectionView.m in Sources */,
+				D3197AA11EF12BBA0088C661 /* CustomAnimationVC.m in Sources */,
 				D30B95E51EE674B9009876FA /* SolidViewController.m in Sources */,
 				D326C6921EE52B3200E5D4A6 /* TransformViewController.m in Sources */,
+				D3197AEA1EF28A7F0088C661 /* TimingFunctionOfUIViewVC.m in Sources */,
 				D30B96011EE791C6009876FA /* CAGradientVC.m in Sources */,
+				D3197A801EEF744C0088C661 /* PropertyAnimationVC.m in Sources */,
 				D3553CEF1EE15E24003AD62C /* LayerDelegateOfCustomDrawVC.m in Sources */,
 				D30B95EC1EE68BD1009876FA /* CAShapeLayerViewController.m in Sources */,
+				D3197A7D1EEE93720088C661 /* ExplicitAnimationVC.m in Sources */,
+				D3197A831EEFBAA60088C661 /* KeyFrameAnimationVC.m in Sources */,
+				D3197AA41EF12D280088C661 /* TransitionAnimationOfUIViewVC.m in Sources */,
+				D3197A9E1EF126950088C661 /* RelativeTimeVC.m in Sources */,
+				D3197A8E1EEFD2880088C661 /* TransitionAnimationVC.m in Sources */,
 				D3553CD61EE102B8003AD62C /* AppDelegate.m in Sources */,
 				D3553CD31EE102B8003AD62C /* main.m in Sources */,
+				D3197A791EEE8B010088C661 /* PresentationLayerVC.m in Sources */,
+				D3197A951EF103510088C661 /* AutoreversesVC.m in Sources */,
 				D30B96EB1EE80A25009876FA /* AVPlayerLayerVC.m in Sources */,
 				D30B95E21EE652C2009876FA /* FlatViewController.m in Sources */,
 				D3553CEA1EE1468F003AD62C /* JointImagesViewController.m in Sources */,
+				D3197A911EEFF91D0088C661 /* CancelAnimationVC.m in Sources */,
+				D3197AED1EF28ADA0088C661 /* TimingFunctionOfKeyframeVC.m in Sources */,
 				D30B96E51EE7D907009876FA /* ReflectionViewVC.m in Sources */,
 				D30B95F81EE6B230009876FA /* ScrollViewLayerVC.m in Sources */,
 				D30B95F51EE69963009876FA /* TransformLayerViewController.m in Sources */,
 				D30B95FE1EE6BBA3009876FA /* CAReplicatorLayerVC.m in Sources */,
+				D3197AE71EF28A610088C661 /* TimingFunctionOfCALayer.m in Sources */,
+				D3197A8B1EEFCDA40088C661 /* GroupAnimationVC.m in Sources */,
 				D30B95E91EE68901009876FA /* DedicatedViewController.m in Sources */,
 				D3553CF21EE16766003AD62C /* ReDrawView.m in Sources */,
 			);
@@ -480,6 +648,30 @@
 				D30B95F11EE68D83009876FA /* Base */,
 			);
 			name = Dedicate.storyboard;
+			sourceTree = "<group>";
+		};
+		D3197A841EEFBBCB0088C661 /* ExplicitAnimation.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3197A851EEFBBCB0088C661 /* Base */,
+			);
+			name = ExplicitAnimation.storyboard;
+			sourceTree = "<group>";
+		};
+		D3197A991EF118E40088C661 /* CAMediaTiming.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3197A9A1EF118E40088C661 /* Base */,
+			);
+			name = CAMediaTiming.storyboard;
+			sourceTree = "<group>";
+		};
+		D3197AE21EF288A60088C661 /* TimingFunction.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3197AE31EF288A60088C661 /* Base */,
+			);
+			name = TimingFunction.storyboard;
 			sourceTree = "<group>";
 		};
 		D3553CDA1EE102B8003AD62C /* Main.storyboard */ = {

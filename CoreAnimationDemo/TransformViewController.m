@@ -39,11 +39,7 @@
 
 - (void)taped:(UITapGestureRecognizer *)tap {
     NSLog(@"点击到了");
-
     NSLog(@"==%@",NSStringFromCGRect(tap.view.frame));
-
-
-
 }
 
 
